@@ -1,0 +1,12 @@
+Incomplete homework, here are the answers:
+
+For part 1, to take the factorial of the number inputted, you need to do a few things. First, product needs to be set to 1 in the beginning (since 0! is 1). Second, the range needs to be changed. It needs to start at 1 (since if you start at 0, you will multiply by 0, and your answer will be 0) and it needs to have a stop value of `number+1` (remember that the stop value is not actually included in the range of numerical values of the loop, so we're actually stopping at `number`).
+For part 2, set up a for loop that loops through a `range()` function with a start value of 1 and stop value of `n+1` and a temporary value called `i`. Every time the loop runs, add `i**3` to a running sum, and output that sum at the end.
+For part 3, set up a for loop that loops through a `range()` function with a stop value of the inputted height. Every time the loop runs, print `"*"` times the base.
+For part 4, set up a for loop that loops through a `range()` function with a start value of 1 and stop value of `n+1`. Then, implement an if/elif/else statement inside the for loop. First, use an if statement to check if the number is divisible by 15 (if so, print "fizzbuzz"). Then, have an elif statement checking if the number is divisible by 3 (if so, print "fizz") and if the number is divisible by 5 (if so, print "buzz"). Lastly, have an else statement that prints out the number itself. 
+
+Note: if you believe that your homework was actually complete, email me.
+
+P.S. ignore the ` character here.
+
+-Austin
